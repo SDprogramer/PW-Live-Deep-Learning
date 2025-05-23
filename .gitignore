@@ -1,0 +1,30 @@
+# Ignore large model files
+*.h5
+*.hdf5
+
+# Ignore other large files
+*.bin
+*.pkl
+*.pickle
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore text files
+*.txt
+
+# Ignore log files
+*.log
+
+# Ignore temporary project folders
+*/untitled_project/
+*/data/
+20[0-9][0-9][0-1][0-9][0-3][0-9]-[0-2][0-9][0-5][0-9][0-5][0-9]
